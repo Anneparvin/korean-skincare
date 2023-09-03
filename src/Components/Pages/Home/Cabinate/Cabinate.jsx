@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Cabinate = () => {
     return (
-        <a href='/'>
+        <Link to='/'>
             <div className="flex flex-col max-w-8xl p-6 space-y-4 sm:p-10 bg-black text-white">
 	<h2 className="text-xl font-semibold">Your cart</h2>
 	<ul className="flex flex-col divide-y divide-gray-700">
@@ -127,7 +128,7 @@ const Cabinate = () => {
 		</button>
 	</div>
 </div>
-        </a>
+        </Link>
     );
 };
 
