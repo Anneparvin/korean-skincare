@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Lotion = () => {
     return (
-        <div>
+        <Link to='/'>
          <section className="p-4 lg:p-8 bg-black text-yellow-100">
 	<div className="container mx-auto space-y-12">
 		<div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
@@ -34,7 +35,7 @@ const Lotion = () => {
 		</div>
 	</div>
 </section>   
-        </div>
+        </Link>
     );
 };
 

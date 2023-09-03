@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Login = () => {
@@ -24,7 +25,7 @@ const Login = () => {
                 
 				<button type="button" className="w-full py-2 font-semibold rounded bg-amber-300 hover:bg-amber-800 text-black mt-4">Login Page</button>
 			</form>
-            Don't have an account yet? <a href='/signup'> Sign up </a>
+            Don't have an account yet? <Link to='/signup'> Sign up </Link>
 		</div>
 		<img src="https://source.unsplash.com/random/480x360" alt="" className="object-cover w-full rounded-md xl:col-span-3 dark:bg-gray-500" />
 	</div>
